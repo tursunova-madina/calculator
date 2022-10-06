@@ -25,6 +25,8 @@ selectOperatons.addEventListener("change", () => {
     resultN = number1 / number2;
   } else if (selectOperatons.value === "C") {
     resultN = "";
+    numberTwo.value = "";
+    numberOne.value = "";
   }
   // else{
   //   alert("Calculator can not do this operation");
