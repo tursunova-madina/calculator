@@ -23,7 +23,12 @@ selectOperatons.addEventListener("change", () => {
     resultN = number1 * number2;
   } else if (selectOperatons.value === "/") {
     resultN = number1 / number2;
-  } else if (selectOperatons.value === "C") {
+  } else if (selectOperatons.value === "**") {
+    resultN = number1 ** number2;
+  } else if (selectOperatons.value === "%") {
+    resultN = number1 % number2;
+  } 
+  else if (selectOperatons.value === "C") {
     resultN = "0";
     numberTwo.value = "";
     numberOne.value = "";
