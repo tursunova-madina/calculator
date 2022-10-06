@@ -24,7 +24,7 @@ selectOperatons.addEventListener("change", () => {
   } else if (selectOperatons.value === "/") {
     resultN = number1 / number2;
   } else if (selectOperatons.value === "C") {
-    resultN = "";
+    resultN = "0";
     numberTwo.value = "";
     numberOne.value = "";
   }
